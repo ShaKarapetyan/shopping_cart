@@ -4,6 +4,7 @@ import { UseCardContextType } from "../context/CartProvider";
 
 const useCart = (): UseCardContextType => {
     return useContext(CartContext)
+    // exav
 }
 
 export default useCart
