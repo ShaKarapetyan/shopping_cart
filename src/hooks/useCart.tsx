@@ -4,6 +4,5 @@ import { UseCardContextType } from "../context/CartProvider";
 
 const useCart = (): UseCardContextType => {
     return useContext(CartContext)
-}
 
 export default useCart
