@@ -16,7 +16,7 @@ const Header = ({viewCart, setViewCart}: PropsType) => {
         <div className="header__title-bar">
             <h1>Acme Co.</h1>
             <div className="header__price-box">
-                <p>Total Irems: {totalItems}</p>
+                <p>Total Items: {totalItems}</p>
                 <p>Total Price: {totalPrice}</p>
             </div>
         </div>
